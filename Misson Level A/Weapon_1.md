@@ -58,7 +58,15 @@ Print a single integer — the maximum number of groups of People at the moment 
                    5--4
     two groups are left so answer is 2.               
 ```
+## Input 4
+```bash
+571 402
+```
 
+## Output 4
+```bash
+169
+```
 ## Solution in C++
 ```C++
 
