@@ -57,6 +57,7 @@ Print all pair of elements in the array which has sum equal to target element.
 ```bash
  COMING SOON......
 ```
+---
 
 ## 2. Missing Positive Integer
 Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
