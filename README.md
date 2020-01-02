@@ -4,8 +4,10 @@ Hello all, This is the repository for the Prep of the Product based companies. I
 ## Resources 
 - Codeforces
 - GeeksforGeeks
-- InterviewBit      ![product based](https://raw.githubusercontent.com/shahfaisalsmart/CodingNinjas-Course-2019-Eminence/master/compies.png?token=AG5VHTT4II5CA3NY5PYBKBC6BXR6G)
+- InterviewBit      
 - Leetcode
 - Codezen
+
+![product based](https://raw.githubusercontent.com/shahfaisalsmart/CodingNinjas-Course-2019-Eminence/master/compies.png?token=AG5VHTSEYV36KGKTQ4KSHQK6BXS36)
 
 > Author:: Mohammad Faisal
