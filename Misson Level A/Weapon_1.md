@@ -57,10 +57,12 @@ Print a single integer — the maximum number of groups of People at the moment 
                     
                    5--4
     two groups are left so answer is 2.               
-                  
+```
+
 ## Solution in C++
 ```C++
-  // BEGINNING WITH THE NAME OF ALMIGHTY GOD ALLAH
+
+// BEGINNING WITH THE NAME OF ALMIGHTY GOD ALLAH
 // AUTHOR:: MOHAMMAD FAISAL
 #include<bits/stdc++.h>
 #include<iostream>
