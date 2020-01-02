@@ -50,9 +50,9 @@ Print a single integer — the maximum number of groups of People at the moment 
                   5--4--3
      
      when 2 people are went.    
-                  6----2
+                   6--1--2
                     
-                   5--4
+                      4
     two groups are left so answer is 2.               
 ```
 ## Input 4
