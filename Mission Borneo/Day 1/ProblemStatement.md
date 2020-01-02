@@ -55,8 +55,47 @@ Print all pair of elements in the array which has sum equal to target element.
 ```
 ### Code in C++
 ```bash
- COMING SOON......
+// BEGINNING WITH THE NAME OF ALMIGHTY GOD ALLAH
+// AUTHOR:: MOHAMMAD FAISAL
+#include<bits/stdc++.h>
+#include<unordered_map>
+using namespace std;
+void solve(int* arr, int n, int target)
+{
+    unordered_map<int,int> list;
+    for(int i=0;i<n;i++)
+    {
+        int rem = abs(target-arr[i]);
+        if(list.find(rem)!=list.end())
+        {
+            int boundary = list[rem];
+            for(int j=0;j<boundary;j++)
+                cout<<rem<<" and "<<arr[i]<<endl;
+        }
+    	list[arr[i]]++;
+    }
+
+}
+int main() {
+
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.flush();
+    
+    int n;
+    cin >> n;
+    int * arr = new int[n];
+    for(int i=0;i<n;i++)
+        cin >> arr[i];
+    int target;
+    cin >> target;
+	solve(arr,n,target);
+    delete[] arr;
+   return 0;
+	// Write your code here
+}
 ```
+> Complexity O(N)
 ---
 
 ## 2. Missing Positive Integer
