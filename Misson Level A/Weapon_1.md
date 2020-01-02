@@ -11,7 +11,7 @@ Faisal to find the maximum number of groups are remains when `M` people are gone
 
 ### Constraint 
 ```bash
-2<=N<=1000, 0<=M<=N
+2<=N<=10^9, 0<=M<=N
 ```
 ### Input Format
 N M - where N is number of friends and M is the number of friends which are left the party.
