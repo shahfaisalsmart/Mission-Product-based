@@ -3,11 +3,8 @@
 
 ## Faisal New Year Party 2020
 
-In New year 2020, Faisal decided to gave a threat of his girlfriend Birthday Party which is on *5 January 2020.* So he invited
-all his `N` friends into the party. when the all `N` friends are came. they sit on the circluar table and make a group so that everyone 
-enjoy the party threat equally. But after sometime there was a tragedy in CAB rally and so many people got injured. So hear the news
-on that day faisal's `M`friends leaves the party on that moments. Faisal wants to order food for the party by Swiggy. So help the 
-Faisal to find the maximum number of groups are remaining when `M` people are gone. 
+In New year 2020, Faisal decided to gave a treat of his girlfriend Birthday Party which is on *5 January 2020.* So he invited
+all his `N` friends into the party. when the all `N` friends are came. they sit on the circular table and makes a group so that everyone enjoys the party treat equally. But after sometime there was a tragedy occurs in CAB rally and so many people got injured. So hear the news on that day faisal's `M`friends leaves the party on that moments. Faisal wants to order food for the party from Swiggy. So help Faisal to find the maximum number of groups that are remaining when `M` people are gone. 
 
 ### Constraint 
 ```bash
