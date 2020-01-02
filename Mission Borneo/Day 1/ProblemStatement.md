@@ -54,7 +54,8 @@ Print all pair of elements in the array which has sum equal to target element.
 10 and 7
 ```
 ### Code in C++
-```bash
+```C++
+
 // BEGINNING WITH THE NAME OF ALMIGHTY GOD ALLAH
 // AUTHOR:: MOHAMMAD FAISAL
 #include<bits/stdc++.h>
