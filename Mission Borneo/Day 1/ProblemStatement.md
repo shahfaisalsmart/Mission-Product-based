@@ -272,7 +272,7 @@ The first and only line of output contains number of ways in which given encoded
 3
 ```
 ### Code in C++
-```bash
+```C++
 // BEGINNING WITH THE NAME OF ALMIGHTY GOD ALLAH
 // AUTHOR:: MOHAMMAD FAISAL
 // SPOJ: ALPHACODE
