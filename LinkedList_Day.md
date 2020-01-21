@@ -219,7 +219,7 @@ int main()
 ```
 ---
 
-## 2. Delete middle of linked list
+## 3. Remove duplicates from a sorted linked list
 
 Write a function which takes a list sorted in non-decreasing order and deletes any duplicate nodes from the list. The list should only be traversed once.
 For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicates() should convert the list to 11->21->43->60.
