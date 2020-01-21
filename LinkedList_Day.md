@@ -219,3 +219,94 @@ int main()
 ```
 ---
 
+## 2. Delete middle of linked list
+
+Write a function which takes a list sorted in non-decreasing order and deletes any duplicate nodes from the list. The list should only be traversed once.
+For example if the linked list is 11->11->11->21->43->43->60 then removeDuplicates() should convert the list to 11->21->43->60.
+
+> This question was asked in initial rounds of Many Product Based Companies interview.
+
+### Code in C++
+```C++
+// BEGINNING WITH THE NAME OF ALMIGHTY GOD ALLAH
+// AUTHOR:: MOHAMMAD FAISAL
+// FIND THE MIDDLE ELEMENT OF IN LINKED LIST
+#include<bits/stdc++.h>
+using namespace std;
+struct Node{
+    int data;
+    struct Node* next;
+};
+void RemoveDuplicates(struct Node* head)
+{
+    Node * current = head;
+    if(current == NULL)
+        return ;
+    
+    Node * next_next;
+
+    while(current->next!=NULL)
+    {
+        if(current->data == current->next->data)
+        {
+            next_next = current->next->next;
+            free(current->next);
+            current->next = next_next;
+        }
+        else
+        {
+            current = current -> next;
+        }
+    }
+    
+}
+void insert(struct Node** head, int data)
+{
+    struct Node* latest_node = new Node;
+
+    latest_node->data = data;
+    latest_node->next = (*head);
+    (*head) = latest_node;
+}
+void printList(struct Node* p)
+{
+    while(p!=NULL)
+    {
+        cout<<p->data<<"->";
+        p = p->next;
+    }
+    cout<<endl;
+}
+
+Node* createNode(int data)
+{
+    struct Node* temp = new Node;
+    temp->data = data;
+    temp->next = NULL;
+    return temp;
+}
+int main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.flush();
+
+    struct Node* head = NULL;
+
+    int n; cin >> n;
+    for(int i=0;i<n;i++)
+    {
+        int x;
+        cin >> x;
+        insert(&head,x);
+    }
+    printList(head);
+    
+    RemoveDuplicates(head);
+
+    cout<<"after Removal: ";
+    printList(head);
+    return 0;
+}
+```
+---
